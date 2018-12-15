@@ -1,0 +1,16 @@
+{
+  "name": "Sr",
+  "short_name": "Sr",
+  "icons": [
+      {
+          "src": "./content/images/confluent-logo-300.png",
+          "sizes": "300x300",
+          "type": "image/png"
+      }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#e0e0e0",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
