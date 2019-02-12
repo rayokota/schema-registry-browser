@@ -64,6 +64,13 @@
         <git-commit-id-plugin.version>2.2.5</git-commit-id-plugin.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>http://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>io.confluent</groupId>
