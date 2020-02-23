@@ -15,7 +15,7 @@
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-rc.11",
     "moment": "2.22.2",
-    "swagger-ui": "2.2.10",
+    "swagger-ui": "3.23.11",
     "vue": "^2.5.2",
     "vue-class-component": "^6.3.2",
     "vue-cookie": "^1.1.4",
