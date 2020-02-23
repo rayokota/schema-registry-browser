@@ -30,7 +30,7 @@ const SubjectDetails = {
                         newVersions.push(response.data);
                     })
                 });
-                Promise.all(promises).then(() =>
+                Promise.all(promises).then(versions =>
                     this.versions = newVersions
                 );
             })

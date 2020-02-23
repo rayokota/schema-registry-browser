@@ -26,7 +26,7 @@ const Subject = {
                             newSubjects.push({name: element, compatibilityLevel: 'BACKWARD'});
                         })
                 });
-                Promise.all(promises).then(() => {
+                Promise.all(promises).then(configs => {
                     this.subjects = newSubjects;
                 });
             });
